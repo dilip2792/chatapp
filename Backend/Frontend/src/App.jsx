@@ -3,7 +3,7 @@ import Left from "./home/Leftpart/Left";
 import Right from "./home/Rightpart/Right";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-import { useAuth } from "./context/AuthProvider";
+import { useAuth } from "../context/AuthProvider";
 import { Toaster } from "react-hot-toast";
 
 import { Navigate, Route, Routes } from "react-router-dom";
